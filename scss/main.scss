@@ -1,0 +1,342 @@
+
+
+*{
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+img {
+   width: 100%;
+   display: block;
+}
+
+#app-container{
+   max-width: 960px;
+   margin: auto;
+   border-style: solid;
+   border-width: 3px;
+   border-color: white;
+}
+.top-contain {
+  background-image: url("../images/roomies-eating-together-bg.jpg");
+}
+.leftburger{
+  display:none;
+}
+.top-logo {
+  width: 75px;
+  margin-right: 700px;
+  margin-left: 10px;
+}
+
+ .top-right {
+   text-align: right;
+   color: white;
+   display: inline-block;
+   padding: 15px;
+ }
+.top-message {
+  margin-top: 100px;
+  color: white;
+  font-style: bold;
+  text-align: center;
+  padding-bottom: 120px;
+}
+.living {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.livingsml{
+  display:none;
+}
+.perfect {
+  font-size:22px;
+  padding-bottom: 22px;
+}
+form {
+width: 70%;
+margin: auto;
+}
+.bluebutt {
+  background-color:#7ac0ce;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  color: white;
+}
+.search {
+  display: inline-block;
+}
+.roomrent{
+  text-align: center;
+  padding: 30px;
+  background-size: 15%;
+  background-color: #7ac0ce;
+  color: white;
+  background-image: url("../images/buildings-yellow-green.svg");
+  background-repeat: no-repeat;
+    background-position: right;
+}
+.postroom{
+  color: white;
+  background-color: #36424F;
+  border: 0px;
+  border-radius: 3px;
+}
+.whtclass {
+  padding-top: 45px;
+  color: #7ac0ce;
+  margin: auto;
+  text-align: center;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+.whtpara{
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+.centeronly {
+  text-align: center;
+  font-weight: bold;
+}
+.centertxt {
+  text-align: center;
+}
+.bluewrit {
+  color: #7ac0ce;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.happykids {
+  color: white;
+  background-image: url("../images/happy-roomies-bg.jpg");
+  text-align: center;
+  background-size: contain;
+  background-size: 100%;
+  height: 45%;
+}
+.hghlite{
+padding-top: 85px;
+}
+
+.smllite{
+  margin-bottom: 35px;
+}
+.darkbluebutt {
+  background-color:#36424F;
+  text-align: center;
+  color: white;
+}
+.text-last {
+  width:40%;
+  margin: auto;
+}
+.succpro {
+  text-align: center;
+}
+.topbox{
+  margin-bottom: 45px;
+}
+
+.topsucc{
+  color:#7ac0ce;
+  font-weight: bolder;
+  padding-top: 70px;
+  margin-bottom: 30px;
+}
+
+.succtxt{
+  font-size: 15px;
+}
+.success {
+  width: 35%;
+  margin:auto;
+}
+.proname{
+color:#7ac0ce;
+font-weight: bolder;
+}
+.yellowbx{
+  background-color: #F7C761;
+  padding: 35px;
+}
+.featrm{
+  padding-top: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+.whtbox {
+  border-width: thin;
+  border-color: white;
+}
+
+.ywbox{
+background-color: white;
+padding: 2px;
+}
+
+.smltxt{
+  background-color: white;
+}
+.hypetxt{
+  font-weight: bold;
+  background-color: white;
+}
+.smallpic{
+  border-radius: 50%;
+  border-color: white;
+  border-width: thin;
+  width: 15%;
+  position: absolute;
+    top: 175px;
+    right: 20;
+    z-index: 1;
+}
+.tinytext{
+  background-color: white;
+  padding: 2px;
+  padding-left: 15px;
+}
+.morerooms {
+  color: white;
+  background-color: #36424F;
+  border: 0px;
+  border-radius: 3px;
+}
+.mrooms {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.darkbox, .darkbox-one,.darkbox-two,.darkbox-three{
+  background-color: #36424F;
+  color: white;
+  padding: 15px;
+  height: 185px;
+}
+.true {
+  width: 45%;
+  margin-bottom: 72px;
+}
+.truetoo{
+  text-align: left;
+  vertical-align: text-bottom;
+}
+.last {
+  background-color: #36424F;
+}
+.google {
+  width: 100px;
+  margin-bottom: 20px;
+}
+.mobile-last{
+  display:none;
+}
+/*MEDIA QUERY*/
+@media only screen and (max-width : 768px) {
+  .leftburger {
+    color: white;
+    display: inline-block;
+    border-radius:2px;
+    padding: 3%;
+    top:0;
+    right:0;
+    font-size: 25px;
+  }
+  .rightburger {
+    display: block;
+  position: absolute;
+  top: 12px;
+  right: 5px;
+  }
+  .top-logo {
+    display: block;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  }
+  .top-right{
+    display:none;
+  }
+  .living{
+    display:none
+  }
+  .livingsml{
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: inline-block;
+
+  }
+  .roomrent{
+    text-align: center;
+    padding: 30px;
+    background-size: 15%;
+    background-color: #7ac0ce;
+    color: white;
+    background-image: url("../images/buildings-yellow-green.svg");
+    background-repeat: no-repeat;
+      background-position: right;
+      background-size: contain;
+    }
+    .middleimgs {
+      width: 15%;
+      margin:auto;
+
+    }
+    .centertxt{
+      margin-left: 15%;
+      margin-right:15%;
+    }
+    .happykids{
+      background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .success {
+      width: 15%;
+    }
+    .testament{
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+    .whtbox {
+      width: 75%;
+      display: inline-block;
+      margin-left: 50px;
+      margin-right: auto;
+      margin-bottom: 30px;
+    }
+    .yellowbx{
+      .row{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        display: table-cell;
+
+      }}
+      .mobile-last {
+      display: inline-block;
+      background-color: #36424F;
+      color: white;
+      width: 100%;
+      text-align: center;
+      margin: auto;
+    }
+    .goog{
+      width: 20%;
+      margin: auto;
+      margin-bottom: 15px;
+    }
+    .last{
+      display: none;
+    }
+    .mob-tx{
+    margin-left: 2.5em;
+    }
+  }
